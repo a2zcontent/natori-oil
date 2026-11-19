@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Natori Oil — APOEM Secret Firming & Tightening Oil (1 Box) | ₹450 Flash Sale</title>
+  <meta name="description" content="Natori Oil — APOEM Secret Firming & Tightening Oil (1 Box · 7 Single-Use Applicators). MRP ₹999, Flash Sale ₹450 Only. Book with ₹149 Advance COD via PhonePe, Google Pay, Paytm. 100% Plain Box Delivery." />
+  <meta name="theme-color" content="#5e3d8f" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; }
+    .font-display { font-family: 'Cormorant Garamond', Georgia, serif; }
+    .font-mono { font-family: 'IBM Plex Mono', monospace; }
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    @keyframes toastIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .toast-enter { animation: toastIn 0.28s ease-out forwards; }
+  </style>
+</head>
+<body class="bg-[#faf8fc] text-zinc-900 antialiased pb-20 md:pb-0">
+
+  <!-- Slim Dismissible Flash Sale Countdown Strip -->
+  <div id="flashBanner" class="bg-[#5e3d8f] text-white text-xs py-2 px-4">
+    <div class="max-w-6xl mx-auto flex items-center justify-between gap-3">
+      <div class="flex-1 flex items-center justify-center gap-2 sm:gap-3 truncate">
+        <span class="font-semibold whitespace-nowrap">Flash Sale 55% Off</span>
+        <span id="flashTimerTop" class="font-mono tabular-nums bg-white/15 px-2 py-0.5 rounded text-[11px] font-semibold">02:43:19</span>
+        <span class="hidden sm:inline truncate text-white/90">1 Box MRP ₹999 → ₹450 Only · ₹149 Advance COD · 100% Plain Box</span>
+      </div>
+      <button type="button" onclick="document.getElementById('flashBanner').remove()" aria-label="Close banner" class="text-white/80 hover:text-white cursor-pointer shrink-0 font-bold px-1">✕</button>
+    </div>
+  </div>
+
+  <!-- 3-Zone Sticky Navigation Bar -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-[#e6e0ee]">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-8">
+      <a href="#" class="font-display text-2xl sm:text-[28px] font-semibold tracking-tight text-zinc-900 whitespace-nowrap shrink-0">Natori Oil</a>
+      <nav aria-label="Primary Navigation" class="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-600">
+        <a href="#videos" class="hover:text-[#5e3d8f] transition whitespace-nowrap">Demo Videos</a>
+        <a href="#details" class="hover:text-[#5e3d8f] transition whitespace-nowrap">How It Works</a>
+        <a href="#reviews" class="hover:text-[#5e3d8f] transition whitespace-nowrap">Photo Reviews</a>
+        <a href="#faqs" class="hover:text-[#5e3d8f] transition whitespace-nowrap">FAQs</a>
+      </nav>
+      <button type="button" onclick="openCheckout()" class="px-4 py-2.5 rounded-lg bg-[#5e3d8f] hover:bg-[#4a2d75] text-white text-xs font-semibold transition cursor-pointer whitespace-nowrap shrink-0">
+        Order 1 Box
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- SECTION 1: Single-Box Hero with Horizontal Side-Swipe Photo Slider -->
+    <section class="bg-white border-b border-[#e6e0ee]">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-14">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
+
+          <!-- Left Column: Side-Swipeable Product Photo Slider -->
+          <div class="lg:col-span-7 space-y-3.5">
+            <div class="relative w-full max-w-[560px] mx-auto lg:mx-0">
+              <div id="heroSlider" onscroll="onSliderScroll()" aria-label="Product photo slider" class="flex overflow-x-auto snap-x snap-mandatory no-scrollbar rounded-xl border border-[#e6e0ee] bg-white scroll-smooth">
+                <div class="min-w-full snap-center aspect-square bg-white flex items-center justify-center"><img src="assets/aistudio/IMG_0936_17f7a336.jpeg" alt="APOEM Secret Firming & Tightening Oil Box" class="w-full h-full object-contain select-none" draggable="false" /></div>
+                <div class="min-w-full snap-center aspect-square bg-white flex items-center justify-center"><img src="assets/aistudio/IMG_0938_b25f843a.jpeg" alt="IFA Certified Vegan 97.7% Natural" class="w-full h-full object-contain select-none" draggable="false" /></div>
+                <div class="min-w-full snap-center aspect-square bg-white flex items-center justify-center"><img src="assets/aistudio/IMG_0937_9a6fe2ea.jpeg" alt="Warming Firmness & Hydration Benefits" class="w-full h-full object-contain select-none" draggable="false" /></div>
+                <div class="min-w-full snap-center aspect-square bg-white flex items-center justify-center"><img src="assets/aistudio/IMG_0939_f2acc237.jpeg" alt="Hydrolyzed Collagen, Caffeine & Beech Bud Extract" class="w-full h-full object-contain select-none" draggable="false" /></div>
+                <div class="min-w-full snap-center aspect-square bg-white flex items-center justify-center"><img src="assets/aistudio/IMG_0941_2e5e9a56.jpeg" alt="Hygienic Single-Use 5ml Applicator" class="w-full h-full object-contain select-none" draggable="false" /></div>
+                <div class="min-w-full snap-center aspect-square bg-white flex items-center justify-center"><img src="assets/aistudio/IMG_0940_dd6d40e9.jpeg" alt="7-Day Clinical Firming & Hydration Results" class="w-full h-full object-contain select-none" draggable="false" /></div>
+                <div class="min-w-full snap-center aspect-square bg-white flex items-center justify-center"><img src="assets/aistudio/IMG_0943_e4808213.jpeg" alt="6-Step Easy Application Guide" class="w-full h-full object-contain select-none" draggable="false" /></div>
+                <div class="min-w-full snap-center aspect-square bg-white flex items-center justify-center"><img src="assets/aistudio/discreet_packaging_box_1795076161749.jpg" alt="100% Plain Unlabelled Brown Box Delivery" class="w-full h-full object-contain select-none" draggable="false" /></div>
+              </div>
+
+              <!-- Side Prev / Next Arrows -->
+              <button type="button" onclick="slideStep(-1)" aria-label="Previous photo" class="absolute left-3 top-1/2 -translate-y-1/2 w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white/90 hover:bg-white border border-[#e6e0ee] shadow-sm text-zinc-800 hover:text-[#5e3d8f] flex items-center justify-center cursor-pointer text-lg font-bold">‹</button>
+              <button type="button" onclick="slideStep(1)" aria-label="Next photo" class="absolute right-3 top-1/2 -translate-y-1/2 w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white/90 hover:bg-white border border-[#e6e0ee] shadow-sm text-zinc-800 hover:text-[#5e3d8f] flex items-center justify-center cursor-pointer text-lg font-bold">›</button>
+
+              <!-- Counter -->
+              <div id="slideCounter" class="absolute bottom-3 right-3 px-2.5 py-1 rounded-md bg-zinc-900/75 text-white text-[11px] font-mono tabular-nums pointer-events-none">1 / 8</div>
+            </div>
+
+            <!-- Minimal Dots & Caption -->
+            <div class="max-w-[560px] mx-auto lg:mx-0 flex flex-col items-center gap-2 pt-0.5">
+              <div id="sliderDots" class="flex items-center justify-center gap-1.5"></div>
+              <p id="slideCaption" class="text-xs text-zinc-500 text-center">
+                APOEM Secret Firming & Tightening Oil — 1 Box (7 Applicators) · <span class="text-[#5e3d8f] font-medium">Swipe side-to-side</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- Right Column: Single-Box Purchase Module -->
+          <div class="lg:col-span-5 space-y-5">
+            <div class="space-y-2">
+              <p class="text-xs font-medium text-zinc-500">1 Sealed Box (7 × 5ml Applicators) · Unscented · IFA Certified</p>
+              <h1 class="font-display text-3xl sm:text-4xl lg:text-[42px] font-semibold leading-[1.08] tracking-tight text-zinc-900">
+                APOEM Secret Firming & Tightening Oil
+              </h1>
+              <p class="text-sm font-medium text-[#5e3d8f]">Lasting tightness · Instant warming sensation · 97.7% Natural Origin</p>
+              <div class="flex items-center gap-2 text-xs text-zinc-600 pt-0.5">
+                <span class="text-amber-500 tracking-tight">★★★★★</span>
+                <span class="font-mono font-semibold text-zinc-900">4.9</span>
+                <span>·</span>
+                <a href="#reviews" class="hover:text-[#5e3d8f] hover:underline">4,860+ Verified Orders</a>
+              </div>
+            </div>
+
+            <!-- Flash Sale Price Card -->
+            <div class="p-4 sm:p-5 rounded-xl bg-[#f3eef9] border border-[#e6e0ee] space-y-3">
+              <div class="flex items-center justify-between text-xs">
+                <span class="font-semibold text-[#4a2d75]">Flash Sale Discount Ends In:</span>
+                <span id="flashTimerCard" class="font-mono tabular-nums font-semibold text-[#5e3d8f]">02:43:19</span>
+              </div>
+              <div class="flex items-baseline gap-3 font-mono tabular-nums">
+                <span id="heroTotal" class="text-4xl font-semibold text-zinc-900">₹450</span>
+                <span id="heroMrp" class="text-lg text-zinc-400 line-through">₹999</span>
+                <span id="heroSave" class="text-xs font-sans font-semibold text-emerald-700">55% Off · Save ₹549</span>
+              </div>
+              <div class="pt-2.5 border-t border-[#e6e0ee] space-y-1 text-xs">
+                <div class="flex items-center justify-between text-zinc-800">
+                  <span>Advance Booking (UPI Now):</span>
+                  <span class="font-mono font-semibold text-[#5e3d8f]">₹149</span>
+                </div>
+                <div class="flex items-center justify-between text-zinc-700">
+                  <span>Balance Cash on Delivery (Parcel Milne Par):</span>
+                  <span id="heroCodBalance" class="font-mono font-semibold text-zinc-900">₹301</span>
+                </div>
+                <p class="text-[11px] text-zinc-500 pt-1">Note: Full ₹0 COD available nahi hai — sirf ₹149 advance dekar order book karein.</p>
+              </div>
+            </div>
+
+            <!-- Single Box Highlights -->
+            <ul class="space-y-2 text-xs sm:text-[13px] text-zinc-700">
+              <li class="flex items-start gap-2"><span class="text-[#5e3d8f] font-bold">✓</span><span>1 Original Sealed Box — 7 Hygienic Single-Use Applicators (5ml each)</span></li>
+              <li class="flex items-start gap-2"><span class="text-[#5e3d8f] font-bold">✓</span><span>IFA Certified · Vegan · ISO 16128 (97.7% Natural) · Odorless & Safe</span></li>
+              <li class="flex items-start gap-2"><span class="text-[#5e3d8f] font-bold">✓</span><span>100% Plain Unlabelled Brown Box Discreet Delivery Across India</span></li>
+            </ul>
+
+            <!-- Quantity & Primary CTA -->
+            <div class="space-y-3 pt-1">
+              <div class="flex items-center gap-3">
+                <div class="inline-flex items-center border border-[#e6e0ee] rounded-lg bg-[#faf8fc] shrink-0">
+                  <button type="button" onclick="changeQty(-1)" aria-label="Decrease quantity" class="w-11 h-12 flex items-center justify-center text-zinc-600 hover:text-zinc-900 cursor-pointer font-bold">−</button>
+                  <span id="qtyDisplay" class="w-9 text-center text-sm font-mono font-semibold text-zinc-900">1</span>
+                  <button type="button" onclick="changeQty(1)" aria-label="Increase quantity" class="w-11 h-12 flex items-center justify-center text-zinc-600 hover:text-zinc-900 cursor-pointer font-bold">+</button>
+                </div>
+                <button type="button" onclick="openCheckout()" class="flex-1 h-12 px-5 rounded-lg bg-[#5e3d8f] hover:bg-[#4a2d75] text-white font-semibold text-sm transition cursor-pointer inline-flex items-center justify-center gap-2 whitespace-nowrap">
+                  <span>Order Now · ₹149 Advance →</span>
+                </button>
+              </div>
+
+              <!-- PhonePe, Google Pay, Paytm & UPI Brand Logos Strip -->
+              <div class="pt-1 text-center space-y-1.5">
+                <p class="text-[11px] text-zinc-500">Step 1: Enter Simple Address → Step 2: Pay ₹149 Advance via</p>
+                <div class="flex flex-wrap items-center justify-center gap-2">
+                  <div class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-white border border-[#e6e0ee]">
+                    <svg viewBox="0 0 40 40" class="w-5 h-5" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#5F259F"/><text x="20" y="27" text-anchor="middle" fill="#FFF" font-size="22" font-weight="700" font-family="sans-serif">पे</text></svg>
+                    <span class="text-[11px] font-semibold text-[#5F259F]">PhonePe</span>
+                  </div>
+                  <div class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-white border border-[#e6e0ee]">
+                    <svg viewBox="0 0 40 40" class="w-5 h-5" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#FFF" stroke="#E5E7EB" stroke-width="1.5"/><path d="M29.6 20.2c0-.7-.1-1.4-.2-2H20v3.9h5.4c-.2 1.3-1 2.4-2.1 3.1v2.6h3.4c2-1.8 2.9-4.5 2.9-7.6z" fill="#4285F4"/><path d="M20 30c2.7 0 5-.9 6.7-2.4l-3.4-2.6c-.9.6-2.1 1-3.3 1-2.5 0-4.7-1.7-5.5-4h-3.5v2.7C12.7 27.9 16.1 30 20 30z" fill="#34A853"/><path d="M14.5 22c-.2-.6-.3-1.3-.3-2s.1-1.4.3-2v-2.7H11c-.7 1.4-1.1 3-1.1 4.7s.4 3.3 1.1 4.7l3.5-2.7z" fill="#FBBC05"/><path d="M20 14c1.5 0 2.8.5 3.8 1.5l2.9-2.9C24.9 11 22.7 10 20 10c-3.9 0-7.3 2.1-9 5.3l3.5 2.7c.8-2.3 3-4 5.5-4z" fill="#EA4335"/></svg>
+                    <span class="text-[11px] font-semibold text-zinc-800">Google Pay</span>
+                  </div>
+                  <div class="inline-flex items-center px-2.5 py-1.5 rounded-lg bg-white border border-[#e6e0ee]">
+                    <span class="text-[12px] font-extrabold tracking-tight text-[#002970]">Pay<span class="text-[#00BAF2]">tm</span></span>
+                  </div>
+                  <div class="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-white border border-[#e6e0ee]">
+                    <span class="text-[11px] font-extrabold text-[#097939]">UPI</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="pt-3 border-t border-[#e6e0ee] grid grid-cols-3 gap-2 text-xs text-zinc-600">
+              <span>🔒 100% Plain Box</span>
+              <span>🚚 Free Delivery</span>
+              <span>🛡 Tested & Safe</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: Product Demo Videos & Official Infographics -->
+    <section id="videos" class="py-16 bg-[#faf8fc] border-b border-[#e6e0ee]">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 space-y-16">
+        <div>
+          <p class="text-xs font-medium text-[#5e3d8f] mb-1">Watch Product Demo</p>
+          <h2 class="font-display text-3xl sm:text-4xl font-semibold text-zinc-900 mb-8">See the clear non-sticky gel & applicator up close</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="rounded-xl bg-white border border-[#e6e0ee] overflow-hidden">
+              <div class="bg-zinc-950 aspect-[4/3] w-full flex items-center justify-center">
+                <video controls playsinline preload="metadata" poster="assets/aistudio/IMG_0937_9a6fe2ea.jpeg" class="w-full h-full object-contain">
+                  <source src="assets/aistudio/demo_studio.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="p-5 flex items-center justify-between gap-4">
+                <div>
+                  <h3 class="text-sm font-semibold text-zinc-900">Clear Non-Sticky Gel Texture & Applicator</h3>
+                  <p class="text-xs text-zinc-600 mt-1">Watch the smooth clear texture and precise single-use applicator.</p>
+                </div>
+                <button type="button" onclick="openCheckout()" class="px-3.5 py-2 rounded-lg bg-[#5e3d8f] hover:bg-[#4a2d75] text-white text-xs font-semibold cursor-pointer whitespace-nowrap shrink-0">Order @ ₹149</button>
+              </div>
+            </div>
+            <div class="rounded-xl bg-white border border-[#e6e0ee] overflow-hidden">
+              <div class="bg-zinc-950 aspect-[4/3] w-full flex items-center justify-center">
+                <video controls playsinline preload="metadata" poster="assets/aistudio/IMG_0941_2e5e9a56.jpeg" class="w-full h-full object-contain">
+                  <source src="assets/aistudio/demo_walkthrough.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="p-5 flex items-center justify-between gap-4">
+                <div>
+                  <h3 class="text-sm font-semibold text-zinc-900">Real Product Demo & Box Walkthrough</h3>
+                  <p class="text-xs text-zinc-600 mt-1">See how easy, unscented, and mess-free each 5ml applicator is.</p>
+                </div>
+                <button type="button" onclick="openCheckout()" class="px-3.5 py-2 rounded-lg bg-[#5e3d8f] hover:bg-[#4a2d75] text-white text-xs font-semibold cursor-pointer whitespace-nowrap shrink-0">Order @ ₹149</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Official Product Infographics -->
+        <div id="details" class="space-y-8">
+          <div>
+            <p class="text-xs font-medium text-[#5e3d8f] mb-1">Trusted Spanish Formula · 97.7% Natural Origin</p>
+            <h2 class="font-display text-3xl sm:text-4xl font-semibold text-zinc-900">Benefits, Comparison & 6-Step Usage Guide</h2>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="rounded-xl bg-white border border-[#e6e0ee] overflow-hidden">
+              <div class="aspect-square bg-white"><img src="assets/aistudio/IMG_0944_9d1f39f7.jpeg" alt="Who It Is For" class="w-full h-full object-contain" /></div>
+              <p class="px-5 py-3.5 border-t border-[#e6e0ee] bg-[#faf8fc] text-xs font-semibold text-zinc-800">Postpartum Firming, Menopause Support & Daily Care</p>
+            </div>
+            <div class="rounded-xl bg-white border border-[#e6e0ee] overflow-hidden">
+              <div class="aspect-square bg-white"><img src="assets/aistudio/IMG_0942_70a7be2e.jpeg" alt="APOEM vs Ordinary Tubes" class="w-full h-full object-contain" /></div>
+              <p class="px-5 py-3.5 border-t border-[#e6e0ee] bg-[#faf8fc] text-xs font-semibold text-zinc-800">Why Single-Use APOEM Applicators Beat Ordinary Bulk Tubes</p>
+            </div>
+            <div class="rounded-xl bg-white border border-[#e6e0ee] overflow-hidden">
+              <div class="aspect-square bg-white"><img src="assets/aistudio/IMG_0943_e4808213.jpeg" alt="How To Use 6 Steps" class="w-full h-full object-contain" /></div>
+              <p class="px-5 py-3.5 border-t border-[#e6e0ee] bg-[#faf8fc] text-xs font-semibold text-zinc-800">Easy 6-Step Hygienic Application Guide</p>
+            </div>
+            <div class="rounded-xl bg-white border border-[#e6e0ee] overflow-hidden">
+              <div class="aspect-square bg-white"><img src="assets/aistudio/IMG_0940_dd6d40e9.jpeg" alt="7-Day Results" class="w-full h-full object-contain" /></div>
+              <p class="px-5 py-3.5 border-t border-[#e6e0ee] bg-[#faf8fc] text-xs font-semibold text-zinc-800">Warming Firmness & Intense Hydration Results</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 100% Plain Discreet Box Promise -->
+        <div class="p-6 sm:p-10 rounded-2xl bg-white border border-[#e6e0ee] grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <div class="lg:col-span-6 space-y-4">
+            <p class="text-xs font-medium text-[#5e3d8f]">100% Private Shipping · Simple 2-Step Checkout</p>
+            <h2 class="font-display text-3xl sm:text-4xl font-semibold text-zinc-900 leading-tight">Unbranded Plain Box & ₹149 Advance COD</h2>
+            <p class="text-sm text-zinc-600 leading-relaxed">Box ke bahar koi brand ya product name nahi likha hota — sirf "Personal Care Parcel" aur aapka address hota hai.</p>
+            <ul class="space-y-2 text-sm text-zinc-700">
+              <li>✓ <strong>Step 1:</strong> Apna simple Naam, Mobile Number aur Delivery Address bharein</li>
+              <li>✓ <strong>Step 2:</strong> PhonePe, Google Pay ya Paytm se sirf <strong>₹149 Advance</strong> pay karein — baki <strong>₹301 Cash on Delivery</strong></li>
+            </ul>
+            <button type="button" onclick="openCheckout()" class="px-6 py-3 rounded-lg bg-[#5e3d8f] hover:bg-[#4a2d75] text-white text-sm font-semibold cursor-pointer">
+              Order 1 Box Now (₹450 Flash Sale) →
+            </button>
+          </div>
+          <div class="lg:col-span-6">
+            <div class="aspect-[4/3] rounded-xl overflow-hidden border border-[#e6e0ee] bg-[#f3eef9]">
+              <img src="assets/aistudio/discreet_packaging_box_1795076161749.jpg" alt="100% Plain Unlabelled Brown Box" class="w-full h-full object-cover" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Verified Photo Reviews (Hindi & English with Filter Tabs) -->
+    <section id="reviews" class="py-16 bg-white border-b border-[#e6e0ee]">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+          <div class="space-y-1">
+            <p class="text-xs font-medium text-[#5e3d8f]">Verified Customer Photo Feedback (Hindi & English)</p>
+            <h2 class="font-display text-3xl sm:text-4xl font-semibold text-zinc-900">Real Buyer Reviews With Photos</h2>
+            <p class="text-xs text-zinc-600 font-mono">4.9 / 5 Average Rating · 4,860+ Discreet Boxes Delivered Across India</p>
+          </div>
+          <div class="inline-flex items-center gap-1 p-1 rounded-lg bg-[#f3eef9] border border-[#e6e0ee] self-start">
+            <button type="button" onclick="filterReviews('all')" id="tab-all" class="px-3.5 py-1.5 rounded-md text-xs font-semibold bg-white text-[#5e3d8f] shadow-sm cursor-pointer">All (6)</button>
+            <button type="button" onclick="filterReviews('hindi')" id="tab-hindi" class="px-3.5 py-1.5 rounded-md text-xs font-semibold text-zinc-600 cursor-pointer">हिंदी (Hindi)</button>
+            <button type="button" onclick="filterReviews('english')" id="tab-english" class="px-3.5 py-1.5 rounded-md text-xs font-semibold text-zinc-600 cursor-pointer">English</button>
+          </div>
+        </div>
+
+        <div id="reviewsGrid" class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <article data-lang="hindi" class="rounded-xl bg-[#faf8fc] border border-[#e6e0ee] overflow-hidden flex flex-col justify-between">
+            <div>
+              <div class="aspect-[4/3] bg-white border-b border-[#e6e0ee]"><img src="assets/aistudio/review_photo_unboxing_1_1795078394732.jpg" alt="Pooja Sharma Review" class="w-full h-full object-cover" /></div>
+              <div class="p-5 space-y-2">
+                <div class="flex justify-between text-xs"><span class="text-amber-500">★★★★★</span><span class="text-zinc-500">हिंदी · 2 din pehle</span></div>
+                <h3 class="text-sm font-semibold text-zinc-900">Bilkul plain box me aaya aur result bahut accha hai!</h3>
+                <p class="text-xs text-zinc-700 leading-relaxed">"Maine ₹149 advance PhonePe se pay karke 1 Box order kiya tha aur baki ₹301 delivery par diye. Box ke bahar kuch bhi nahi likha tha, 100% original product!"</p>
+              </div>
+            </div>
+            <div class="px-5 py-3.5 border-t border-[#e6e0ee] bg-white">
+              <p class="text-xs font-semibold text-zinc-900">Pooja Sharma · Jaipur</p>
+              <p class="text-[11px] text-emerald-700 font-medium">Verified Buyer · 1 Box (₹450 Flash Sale)</p>
+            </div>
+          </article>
+
+          <article data-lang="english" class="rounded-xl bg-[#faf8fc] border border-[#e6e0ee] overflow-hidden flex flex-col justify-between">
+            <div>
+              <div class="aspect-[4/3] bg-white border-b border-[#e6e0ee]"><img src="assets/aistudio/review_photo_unboxing_2_1795078395534.jpg" alt="Meenakshi Nair Review" class="w-full h-full object-cover" /></div>
+              <div class="p-5 space-y-2">
+                <div class="flex justify-between text-xs"><span class="text-amber-500">★★★★★</span><span class="text-zinc-500">English · 3 days ago</span></div>
+                <h3 class="text-sm font-semibold text-zinc-900">Hygienic single-use applicators & genuine warming effect</h3>
+                <p class="text-xs text-zinc-700 leading-relaxed">"Each 5ml applicator is sealed for single hygienic use and completely unscented. Gentle warming sensation with zero irritation. Discreet parcel arrived in 3 days."</p>
+              </div>
+            </div>
+            <div class="px-5 py-3.5 border-t border-[#e6e0ee] bg-white">
+              <p class="text-xs font-semibold text-zinc-900">Meenakshi Nair · Bengaluru</p>
+              <p class="text-[11px] text-emerald-700 font-medium">Verified Buyer · 1 Box (7 Applicators)</p>
+            </div>
+          </article>
+
+          <article data-lang="hindi" class="rounded-xl bg-[#faf8fc] border border-[#e6e0ee] overflow-hidden flex flex-col justify-between">
+            <div>
+              <div class="aspect-[4/3] bg-white border-b border-[#e6e0ee]"><img src="assets/aistudio/IMG_0941_2e5e9a56.jpeg" alt="Neha Verma Review" class="w-full h-full object-cover" /></div>
+              <div class="p-5 space-y-2">
+                <div class="flex justify-between text-xs"><span class="text-amber-500">★★★★★</span><span class="text-zinc-500">हिंदी · 5 din pehle</span></div>
+                <h3 class="text-sm font-semibold text-zinc-900">₹450 flash sale me best deal — bilkul safe & odorless</h3>
+                <p class="text-xs text-zinc-700 leading-relaxed">"Isme koi tez fragrance ya chemical nahi hai aur single-use applicator ki wajah se use karna behad aasan hai. Bahut hi badiya quality hai."</p>
+              </div>
+            </div>
+            <div class="px-5 py-3.5 border-t border-[#e6e0ee] bg-white">
+              <p class="text-xs font-semibold text-zinc-900">Neha Verma · Lucknow</p>
+              <p class="text-[11px] text-emerald-700 font-medium">Verified Buyer · 1 Box (₹450 Flash Sale)</p>
+            </div>
+          </article>
+
+          <article data-lang="english" class="rounded-xl bg-[#faf8fc] border border-[#e6e0ee] overflow-hidden flex flex-col justify-between">
+            <div>
+              <div class="aspect-[4/3] bg-white border-b border-[#e6e0ee]"><img src="assets/aistudio/discreet_packaging_box_1795076161749.jpg" alt="Ritika Deshmukh Review" class="w-full h-full object-cover" /></div>
+              <div class="p-5 space-y-2">
+                <div class="flex justify-between text-xs"><span class="text-amber-500">★★★★★</span><span class="text-zinc-500">English · 1 week ago</span></div>
+                <h3 class="text-sm font-semibold text-zinc-900">Smooth ₹149 Advance COD booking & 100% private box</h3>
+                <p class="text-xs text-zinc-700 leading-relaxed">"Paid ₹149 via Google Pay and ₹301 cash at delivery. Courier only saw a plain brown box with my name. Really impressed with the smoothing and tightening comfort."</p>
+              </div>
+            </div>
+            <div class="px-5 py-3.5 border-t border-[#e6e0ee] bg-white">
+              <p class="text-xs font-semibold text-zinc-900">Ritika Deshmukh · Pune</p>
+              <p class="text-[11px] text-emerald-700 font-medium">Verified Buyer · 1 Box (₹149 Advance COD)</p>
+            </div>
+          </article>
+
+          <article data-lang="hindi" class="rounded-xl bg-[#faf8fc] border border-[#e6e0ee] overflow-hidden flex flex-col justify-between">
+            <div>
+              <div class="aspect-[4/3] bg-white border-b border-[#e6e0ee]"><img src="assets/aistudio/IMG_0936_17f7a336.jpeg" alt="Kavita Patel Review" class="w-full h-full object-contain" /></div>
+              <div class="p-5 space-y-2">
+                <div class="flex justify-between text-xs"><span class="text-amber-500">★★★★★</span><span class="text-zinc-500">हिंदी · 1 week pehle</span></div>
+                <h3 class="text-sm font-semibold text-zinc-900">Instant warmth aur lasting tightness feeling</h3>
+                <p class="text-xs text-zinc-700 leading-relaxed">"Paytm se ₹149 advance bhejne ke turant baad WhatsApp par tracking mil gayi. Product bilkul original APOEM box me 7 applicators ke saath aaya."</p>
+              </div>
+            </div>
+            <div class="px-5 py-3.5 border-t border-[#e6e0ee] bg-white">
+              <p class="text-xs font-semibold text-zinc-900">Kavita Patel · Ahmedabad</p>
+              <p class="text-[11px] text-emerald-700 font-medium">Verified Buyer · 1 Box (₹450 Flash Sale)</p>
+            </div>
+          </article>
+
+          <article data-lang="english" class="rounded-xl bg-[#faf8fc] border border-[#e6e0ee] overflow-hidden flex flex-col justify-between">
+            <div>
+              <div class="aspect-[4/3] bg-white border-b border-[#e6e0ee]"><img src="assets/aistudio/review_photo_unboxing_3_1795078395113.jpg" alt="Ananya Roy Review" class="w-full h-full object-cover" /></div>
+              <div class="p-5 space-y-2">
+                <div class="flex justify-between text-xs"><span class="text-amber-500">★★★★★</span><span class="text-zinc-500">English · 2 weeks ago</span></div>
+                <h3 class="text-sm font-semibold text-zinc-900">Dermatologically tested & gentle on sensitive skin</h3>
+                <p class="text-xs text-zinc-700 leading-relaxed">"No redness, no artificial smell, and super easy to apply. Grabbing 1 box at ₹450 during the flash sale is a total steal."</p>
+              </div>
+            </div>
+            <div class="px-5 py-3.5 border-t border-[#e6e0ee] bg-white">
+              <p class="text-xs font-semibold text-zinc-900">Ananya Roy · Kolkata</p>
+              <p class="text-[11px] text-emerald-700 font-medium">Verified Buyer · 1 Box (₹450 Flash Sale)</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: FAQs -->
+    <section id="faqs" class="py-16 bg-[#faf8fc]">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 space-y-8">
+        <div class="text-center space-y-1.5">
+          <p class="text-xs font-medium text-[#5e3d8f]">Common Questions</p>
+          <h2 class="font-display text-3xl sm:text-4xl font-semibold text-zinc-900">Frequently Asked Questions</h2>
+        </div>
+        <div class="border-t border-[#e6e0ee] divide-y divide-[#e6e0ee] text-sm">
+          <details open class="py-4">
+            <summary class="font-semibold text-zinc-900 cursor-pointer">Full Cash on Delivery kyun nahi hai? ₹149 Advance COD kaise kaam karta hai?</summary>
+            <p class="text-zinc-600 mt-2 leading-relaxed">Fake orders rokne ke liye full ₹0 COD band rakha gaya hai. Aap pehle apna simple delivery address bharein, phir sirf ₹149 Advance PhonePe / Google Pay / Paytm se pay karke order confirm karein. Baki ₹301 parcel milne par Cash on Delivery dena hota hai.</p>
+          </details>
+          <details class="py-4">
+            <summary class="font-semibold text-zinc-900 cursor-pointer">Kya parcel 100% discreet (private) hoga?</summary>
+            <p class="text-zinc-600 mt-2 leading-relaxed">Haan, 100% private aur plain brown box packaging. Bahar koi product name ya photo nahi hota — sirf "Personal Care Parcel" aur aapka address hota hai.</p>
+          </details>
+          <details class="py-4">
+            <summary class="font-semibold text-zinc-900 cursor-pointer">1 Box me kitne applicators aate hain?</summary>
+            <p class="text-zinc-600 mt-2 leading-relaxed">1 Box me 7 hygienic single-use applicators (5ml each) aate hain. Ye unscented, vegan, IFA certified aur 97.7% natural origin formula hai.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t border-[#e6e0ee] py-10 text-xs text-zinc-600">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 space-y-3">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+        <span class="font-display text-2xl font-semibold text-zinc-900">Natori Oil</span>
+        <a href="https://wa.me/917742325041" target="_blank" rel="noopener noreferrer" class="font-semibold text-[#5e3d8f] hover:underline">WhatsApp Support: +91 7742325041</a>
+      </div>
+      <p class="text-[11px] text-zinc-500 leading-relaxed">
+        © 2026 Natori Oil Wellness India · Jaipur, India · care@natoriwellness.in. Safety Notice: Single-use cosmetic intimate care applicators for adult use (18+). Consult a doctor if pregnant, breastfeeding, or if you have medical conditions. This site is not affiliated with Meta Platforms, Inc.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Live "Abhi Inhone Kharida" Toast Notification -->
+  <div id="liveBuyerToast" class="hidden fixed bottom-20 md:bottom-5 left-4 z-30 max-w-xs sm:max-w-sm bg-white border border-[#e6e0ee] rounded-xl shadow-lg p-3 flex items-center gap-3 toast-enter">
+    <div class="w-12 aspect-square rounded-lg overflow-hidden border border-[#e6e0ee] shrink-0 bg-white">
+      <img src="assets/aistudio/IMG_0936_17f7a336.jpeg" alt="APOEM" class="w-full h-full object-contain p-0.5" />
+    </div>
+    <div class="min-w-0 flex-1 text-left">
+      <p id="buyerTitle" class="text-xs font-semibold text-zinc-900 truncate"></p>
+      <p id="buyerSub" class="text-[11px] text-zinc-600 leading-snug"></p>
+      <p id="buyerTime" class="text-[10px] font-medium text-[#5e3d8f] mt-0.5"></p>
+    </div>
+    <button type="button" onclick="dismissLiveToast()" aria-label="Close alert" class="text-zinc-400 hover:text-zinc-700 p-1 cursor-pointer self-start">✕</button>
+  </div>
+
+  <!-- Compact Mobile Sticky Bottom Bar -->
+  <div class="fixed bottom-0 inset-x-0 z-30 md:hidden bg-white/95 backdrop-blur-md border-t border-[#e6e0ee] px-4 h-16 flex items-center justify-between gap-3">
+    <div class="min-w-0">
+      <p id="mobileCodLine" class="text-[11px] text-[#5e3d8f] font-semibold truncate">₹149 Advance · ₹301 COD</p>
+      <div class="flex items-baseline gap-1.5 font-mono">
+        <span id="mobileTotal" class="text-base font-semibold text-zinc-900">₹450</span>
+        <span id="mobileMrp" class="text-xs text-zinc-400 line-through">₹999</span>
+      </div>
+    </div>
+    <button type="button" onclick="openCheckout()" class="h-11 px-4 rounded-lg bg-[#5e3d8f] hover:bg-[#4a2d75] text-white font-semibold text-xs whitespace-nowrap shrink-0 cursor-pointer">
+      Order 1 Box · ₹149 Adv.
+    </button>
+  </div>
+
+  <!-- 2-Step Checkout Modal: Step 1 Simple Address -> Step 2 Payment (PhonePe/GPay/Paytm) -> Auto WhatsApp -->
+  <div id="orderModal" class="hidden fixed inset-0 z-50 bg-zinc-950/60 backdrop-blur-[2px] flex items-center justify-center p-4 overflow-y-auto" onclick="if(event.target===this) closeCheckout()">
+    <div class="bg-white border border-[#e6e0ee] w-full max-w-lg rounded-2xl shadow-2xl overflow-hidden my-auto text-left">
+      <div class="px-6 py-4 bg-[#faf8fc] border-b border-[#e6e0ee] space-y-3">
+        <div class="flex items-center justify-between">
+          <div>
+            <h2 id="modalHeading" class="text-xl font-semibold font-display text-zinc-900">Step 1: Delivery Address</h2>
+            <p class="text-xs text-zinc-500">🔒 100% Plain Brown Box · Discreet Delivery</p>
+          </div>
+          <button type="button" onclick="closeCheckout()" aria-label="Close" class="w-8 h-8 rounded-lg border border-[#e6e0ee] text-zinc-500 hover:text-zinc-900 cursor-pointer">✕</button>
+        </div>
+        <div id="stepBar" class="grid grid-cols-2 gap-2 text-xs">
+          <div id="pillStep1" class="py-1.5 px-3 rounded-lg font-semibold bg-[#5e3d8f] text-white">1. Delivery Address</div>
+          <div id="pillStep2" class="py-1.5 px-3 rounded-lg font-semibold bg-white text-zinc-500 border border-[#e6e0ee]">2. Payment (UPI)</div>
+        </div>
+      </div>
+
+      <div class="p-6 max-h-[78vh] overflow-y-auto">
+        <!-- STEP 1: SIMPLE ADDRESS FORM -->
+        <form id="step1Form" onsubmit="goToStep2(event)" class="space-y-3.5">
+          <div class="p-3 rounded-xl bg-[#faf8fc] border border-[#e6e0ee] flex items-center justify-between text-xs">
+            <div>
+              <p id="mProdTitle" class="font-semibold text-zinc-900">APOEM Secret Oil (1 Box)</p>
+              <p id="mProdPrice" class="text-zinc-500">MRP ₹999 · Flash Sale ₹450</p>
+            </div>
+            <div class="text-right font-mono">
+              <span class="font-semibold text-[#5e3d8f] block">₹149 Adv.</span>
+              <span id="mCodMini" class="text-[10px] text-zinc-500">+ ₹301 COD</span>
+            </div>
+          </div>
+
+          <input id="custName" required placeholder="Full Name (Aapka Naam) *" class="w-full px-3.5 py-3 text-sm border border-[#e6e0ee] rounded-lg focus:outline-none focus:border-[#5e3d8f]" />
+          <input id="custPhone" type="tel" required maxlength="13" placeholder="10-Digit Mobile / WhatsApp Number *" class="w-full px-3.5 py-3 text-sm font-mono border border-[#e6e0ee] rounded-lg focus:outline-none focus:border-[#5e3d8f]" />
+          <textarea id="custAddress" rows="2" required placeholder="House / Flat No., Street, Area, Landmark *" class="w-full px-3.5 py-2.5 text-sm border border-[#e6e0ee] rounded-lg focus:outline-none focus:border-[#5e3d8f]"></textarea>
+          <div class="grid grid-cols-2 gap-3">
+            <input id="custPin" required maxlength="6" placeholder="6-Digit PIN *" class="w-full px-3.5 py-3 text-sm font-mono border border-[#e6e0ee] rounded-lg focus:outline-none focus:border-[#5e3d8f]" />
+            <input id="custCity" required placeholder="City & State *" class="w-full px-3.5 py-3 text-sm border border-[#e6e0ee] rounded-lg focus:outline-none focus:border-[#5e3d8f]" />
+          </div>
+
+          <button type="submit" class="w-full py-3.5 px-6 rounded-lg bg-[#5e3d8f] hover:bg-[#4a2d75] text-white font-semibold text-sm cursor-pointer">
+            Continue to Payment →
+          </button>
+        </form>
+
+        <!-- STEP 2: PAYMENT SCREEN -->
+        <form id="step2Form" onsubmit="confirmAndSendWhatsApp(event)" class="hidden space-y-4">
+          <div class="p-3 rounded-xl bg-[#faf8fc] border border-[#e6e0ee] flex items-start justify-between gap-3 text-xs">
+            <div>
+              <p id="savedAddrTitle" class="font-semibold text-zinc-900"></p>
+              <p id="savedAddrBody" class="text-zinc-600 mt-0.5"></p>
+            </div>
+            <button type="button" onclick="backToStep1()" class="text-[#5e3d8f] font-semibold hover:underline cursor-pointer shrink-0">← Edit</button>
+          </div>
+
+          <!-- Payment Mode Selection (NO ₹0 COD) -->
+          <div class="space-y-2 text-xs">
+            <p class="font-semibold text-zinc-900">Choose Payment Option (Full ₹0 COD Not Available)</p>
+            <button type="button" id="optAdvance" onclick="setPayMode('advance')" class="w-full p-3.5 rounded-xl border border-[#5e3d8f] bg-[#f3eef9] text-left flex items-center justify-between cursor-pointer">
+              <div>
+                <p class="font-semibold text-zinc-900 text-sm">₹149 Advance COD (Recommended)</p>
+                <p id="optAdvanceSub" class="text-zinc-600 mt-0.5">Abhi ₹149 UPI pay karein · Baki ₹301 Cash on Delivery</p>
+              </div>
+              <span class="font-mono font-semibold text-[#5e3d8f] text-sm">₹149</span>
+            </button>
+            <button type="button" id="optPrepaid" onclick="setPayMode('prepaid')" class="w-full p-3.5 rounded-xl border border-[#e6e0ee] bg-white text-left flex items-center justify-between cursor-pointer">
+              <div>
+                <p class="font-semibold text-zinc-900 text-sm">Full Prepaid UPI (Extra ₹50 Off)</p>
+                <p id="optPrepaidSub" class="text-zinc-600 mt-0.5">Pay ₹400 now · ₹0 on delivery · Priority Dispatch</p>
+              </div>
+              <span id="optPrepaidAmt" class="font-mono font-semibold text-emerald-700 text-sm">₹400</span>
+            </button>
+          </div>
+
+          <!-- UPI Apps with Brand Logos -->
+          <div class="p-4 rounded-xl bg-[#faf8fc] border border-[#e6e0ee] space-y-3">
+            <div class="flex items-center justify-between text-xs">
+              <span class="font-semibold text-zinc-900">Pay <span id="payNowBadge" class="font-mono text-[#5e3d8f]">₹149</span> via App:</span>
+              <button type="button" id="copyUpiBtn" onclick="copyUpiId()" class="text-[#5e3d8f] font-semibold hover:underline cursor-pointer">Copy UPI ID</button>
+            </div>
+            <div class="grid grid-cols-2 gap-2.5">
+              <button type="button" onclick="launchUpi('phonepe')" class="py-3 px-3 rounded-xl bg-white border border-[#e6e0ee] hover:border-[#5F259F] flex items-center gap-2.5 cursor-pointer">
+                <svg viewBox="0 0 40 40" class="w-7 h-7 shrink-0"><circle cx="20" cy="20" r="20" fill="#5F259F"/><text x="20" y="27" text-anchor="middle" fill="#FFF" font-size="22" font-weight="700" font-family="sans-serif">पे</text></svg>
+                <div class="text-left"><span class="text-xs font-bold text-[#5F259F] block">PhonePe</span><span class="payAppAmt text-[10px] font-mono text-zinc-500">Pay ₹149</span></div>
+              </button>
+              <button type="button" onclick="launchUpi('gpay')" class="py-3 px-3 rounded-xl bg-white border border-[#e6e0ee] hover:border-zinc-400 flex items-center gap-2.5 cursor-pointer">
+                <svg viewBox="0 0 40 40" class="w-7 h-7 shrink-0"><circle cx="20" cy="20" r="19" fill="#FFF" stroke="#E5E7EB" stroke-width="1.5"/><path d="M29.6 20.2c0-.7-.1-1.4-.2-2H20v3.9h5.4c-.2 1.3-1 2.4-2.1 3.1v2.6h3.4c2-1.8 2.9-4.5 2.9-7.6z" fill="#4285F4"/><path d="M20 30c2.7 0 5-.9 6.7-2.4l-3.4-2.6c-.9.6-2.1 1-3.3 1-2.5 0-4.7-1.7-5.5-4h-3.5v2.7C12.7 27.9 16.1 30 20 30z" fill="#34A853"/><path d="M14.5 22c-.2-.6-.3-1.3-.3-2s.1-1.4.3-2v-2.7H11c-.7 1.4-1.1 3-1.1 4.7s.4 3.3 1.1 4.7l3.5-2.7z" fill="#FBBC05"/><path d="M20 14c1.5 0 2.8.5 3.8 1.5l2.9-2.9C24.9 11 22.7 10 20 10c-3.9 0-7.3 2.1-9 5.3l3.5 2.7c.8-2.3 3-4 5.5-4z" fill="#EA4335"/></svg>
+                <div class="text-left"><span class="text-xs font-bold text-zinc-900 block">Google Pay</span><span class="payAppAmt text-[10px] font-mono text-zinc-500">Pay ₹149</span></div>
+              </button>
+              <button type="button" onclick="launchUpi('paytm')" class="py-3 px-3 rounded-xl bg-white border border-[#e6e0ee] hover:border-[#00BAF2] flex items-center justify-between cursor-pointer">
+                <span class="text-sm font-extrabold text-[#002970]">Pay<span class="text-[#00BAF2]">tm</span></span>
+                <span class="payAppAmt text-[10px] font-mono text-zinc-500">₹149</span>
+              </button>
+              <button type="button" onclick="launchUpi('upi')" class="py-3 px-3 rounded-xl bg-white border border-[#e6e0ee] hover:border-zinc-400 flex items-center justify-between cursor-pointer">
+                <span class="text-xs font-extrabold text-[#097939]">Other UPI</span>
+                <span class="text-[10px] font-mono text-zinc-500">BHIM/All</span>
+              </button>
+            </div>
+          </div>
+
+          <input id="custUtr" placeholder="UPI UTR / Transaction ID (Optional — ya screenshot bhejein)" class="w-full px-3.5 py-2.5 text-sm font-mono border border-[#e6e0ee] rounded-lg focus:outline-none focus:border-[#5e3d8f]" />
+
+          <button type="submit" id="confirmBtn" class="w-full py-3.5 px-6 rounded-lg bg-[#5e3d8f] hover:bg-[#4a2d75] text-white font-semibold text-sm cursor-pointer">
+            Confirm & Send on WhatsApp (₹149 Adv.) →
+          </button>
+          <p class="text-[11px] text-zinc-500 text-center">Confirm dabate hi order details sidha WhatsApp par khul jayengi</p>
+        </form>
+
+        <!-- STEP 3: CONFIRMED RECEIPT -->
+        <div id="step3Panel" class="hidden py-3 space-y-4 text-center">
+          <div class="w-12 h-12 mx-auto rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 flex items-center justify-center text-xl font-bold">✓</div>
+          <div>
+            <p id="confOrderId" class="text-xs font-mono font-semibold text-[#5e3d8f]"></p>
+            <h3 id="confName" class="text-2xl font-display font-semibold text-zinc-900 mt-1"></h3>
+            <p class="text-xs text-zinc-600 mt-1">Aapka WhatsApp turant khul gaya hoga — bas <strong>Send</strong> dabayein aur payment screenshot bhej dein. Agar khud nahi khula toh neeche click karein:</p>
+          </div>
+          <a id="waBackupLink" href="#" target="_blank" rel="noopener noreferrer" class="w-full py-3.5 px-6 rounded-lg bg-[#5e3d8f] hover:bg-[#4a2d75] text-white font-semibold text-sm flex items-center justify-center">
+            Open WhatsApp & Send Order →
+          </a>
+          <div class="grid grid-cols-2 gap-2">
+            <button type="button" id="copyMsgBtn" onclick="copyOrderMsg()" class="py-2.5 px-3 rounded-lg border border-[#e6e0ee] text-zinc-700 text-xs font-semibold cursor-pointer">Copy Details</button>
+            <button type="button" onclick="closeCheckout()" class="py-2.5 px-3 rounded-lg border border-[#e6e0ee] text-zinc-700 text-xs font-semibold cursor-pointer">Return to Store</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const SELLER_WHATSAPP = "917742325041";
+    const SELLER_UPI_ID = "paytmqr2810050501011dateishbh6t@paytm";
+    const BOX_PRICE = 450;
+    const BOX_MRP = 999;
+    const ADVANCE_AMT = 149;
+    const PREPAID_EXTRA_OFF = 50;
+
+    let qty = 1;
+    let payMode = "advance";
+    let currentSlide = 0;
+    let lastOrderMsg = "";
+    let toastDismissed = false;
+
+    const slideCaptions = [
+      "APOEM Secret Firming & Tightening Oil — 1 Box (7 Applicators × 5ml)",
+      "Trusted Spanish Brand · IFA Certified · Vegan · 97.7% Natural Origin",
+      "Warming sensation for intimate firmness, hydration & microbiome balance",
+      "Hydrolyzed Collagen + Caffeine + Beech Bud Extract",
+      "Hygienic individually packed 5ml single-use applicator",
+      "82% Firming · 100% Hydration · 83.33% Repair",
+      "Easy 6-step hygienic disposable applicator guide",
+      "100% Plain unlabelled brown box discreet delivery"
+    ];
+
+    const dotsWrap = document.getElementById("sliderDots");
+    slideCaptions.forEach((_, idx) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.setAttribute("aria-label", "Photo " + (idx + 1));
+      btn.onclick = () => goToSlide(idx);
+      btn.className = idx === 0 ? "h-2 w-6 rounded-full bg-[#5e3d8f] transition-all cursor-pointer" : "h-2 w-2 rounded-full bg-zinc-300 cursor-pointer";
+      dotsWrap.appendChild(btn);
+    });
+
+    function updateSlideUI(idx) {
+      currentSlide = idx;
+      document.getElementById("slideCounter").textContent = (idx + 1) + " / " + slideCaptions.length;
+      document.getElementById("slideCaption").innerHTML = slideCaptions[idx] + ' · <span class="text-[#5e3d8f] font-medium">Swipe side-to-side</span>';
+      Array.from(dotsWrap.children).forEach((dot, i) => {
+        dot.className = i === idx ? "h-2 w-6 rounded-full bg-[#5e3d8f] transition-all cursor-pointer" : "h-2 w-2 rounded-full bg-zinc-300 cursor-pointer";
+      });
+    }
+
+    function goToSlide(idx) {
+      const total = slideCaptions.length;
+      const target = (idx + total) % total;
+      const slider = document.getElementById("heroSlider");
+      slider.scrollTo({ left: target * slider.clientWidth, behavior: "smooth" });
+      updateSlideUI(target);
+    }
+
+    function slideStep(delta) { goToSlide(currentSlide + delta); }
+
+    function onSliderScroll() {
+      const slider = document.getElementById("heroSlider");
+      if (!slider.clientWidth) return;
+      const idx = Math.round(slider.scrollLeft / slider.clientWidth);
+      if (idx !== currentSlide && idx >= 0 && idx < slideCaptions.length) updateSlideUI(idx);
+    }
+
+    function changeQty(delta) {
+      qty = Math.max(1, Math.min(5, qty + delta));
+      const total = BOX_PRICE * qty;
+      const mrp = BOX_MRP * qty;
+      const codBal = Math.max(0, total - ADVANCE_AMT);
+      document.getElementById("qtyDisplay").textContent = qty;
+      document.getElementById("heroTotal").textContent = "₹" + total;
+      document.getElementById("heroMrp").textContent = "₹" + mrp;
+      document.getElementById("heroSave").textContent = "55% Off · Save ₹" + (mrp - total);
+      document.getElementById("heroCodBalance").textContent = "₹" + codBal;
+      document.getElementById("mobileTotal").textContent = "₹" + total;
+      document.getElementById("mobileMrp").textContent = "₹" + mrp;
+      document.getElementById("mobileCodLine").textContent = "₹" + ADVANCE_AMT + " Advance · ₹" + codBal + " COD";
+    }
+
+    let sec = 2 * 3600 + 43 * 60 + 19;
+    setInterval(() => {
+      sec = sec > 0 ? sec - 1 : 10799;
+      const t = [Math.floor(sec / 3600), Math.floor((sec % 3600) / 60), sec % 60].map(v => String(v).padStart(2, "0")).join(":");
+      const t1 = document.getElementById("flashTimerTop");
+      const t2 = document.getElementById("flashTimerCard");
+      if (t1) t1.textContent = t;
+      if (t2) t2.textContent = t;
+    }, 1000);
+
+    function filterReviews(lang) {
+      ["all", "hindi", "english"].forEach(id => {
+        const btn = document.getElementById("tab-" + id);
+        btn.className = id === lang
+          ? "px-3.5 py-1.5 rounded-md text-xs font-semibold bg-white text-[#5e3d8f] shadow-sm cursor-pointer"
+          : "px-3.5 py-1.5 rounded-md text-xs font-semibold text-zinc-600 cursor-pointer";
+      });
+      document.querySelectorAll("#reviewsGrid article").forEach(card => {
+        card.style.display = (lang === "all" || card.dataset.lang === lang) ? "" : "none";
+      });
+    }
+
+    const liveBuyers = [
+      { title: "Priya Sharma (Jaipur)", sub: "ne abhi ₹149 Advance dekar 1 Box kharida", time: "Verified Order · Abhi · 1 min pehle" },
+      { title: "Anjali Verma (New Delhi)", sub: "just bought 1 Box (₹450 Flash Sale)", time: "Verified Order · 2 mins ago" },
+      { title: "Sneha Patel (Surat)", sub: "ne abhi PhonePe se ₹149 Advance order kiya", time: "Verified Order · Abhi · 2 min pehle" },
+      { title: "Ritu Sen (Kolkata)", sub: "just ordered 1 Box via Google Pay", time: "Verified Order · 3 mins ago" }
+    ];
+    let bIdx = 0;
+    function showLiveBuyer() {
+      if (toastDismissed) return;
+      const b = liveBuyers[bIdx++ % liveBuyers.length];
+      document.getElementById("buyerTitle").textContent = b.title;
+      document.getElementById("buyerSub").textContent = b.sub;
+      document.getElementById("buyerTime").textContent = b.time;
+      const el = document.getElementById("liveBuyerToast");
+      el.classList.remove("hidden");
+      setTimeout(() => el.classList.add("hidden"), 5000);
+    }
+    function dismissLiveToast() {
+      toastDismissed = true;
+      document.getElementById("liveBuyerToast").classList.add("hidden");
+    }
+    setTimeout(showLiveBuyer, 2600);
+    setInterval(showLiveBuyer, 9000);
+
+    function syncCheckoutPrices() {
+      const total = BOX_PRICE * qty;
+      const codBal = Math.max(0, total - ADVANCE_AMT);
+      const prepaid = Math.max(0, total - PREPAID_EXTRA_OFF);
+      const payNow = payMode === "advance" ? ADVANCE_AMT : prepaid;
+
+      document.getElementById("mProdTitle").textContent = "APOEM Secret Oil (" + qty + (qty === 1 ? " Box)" : " Boxes)");
+      document.getElementById("mProdPrice").textContent = "MRP ₹" + (BOX_MRP * qty) + " · Flash Sale ₹" + total;
+      document.getElementById("mCodMini").textContent = "+ ₹" + codBal + " COD";
+      document.getElementById("optAdvanceSub").textContent = "Abhi ₹" + ADVANCE_AMT + " UPI pay karein · Baki ₹" + codBal + " Cash on Delivery";
+      document.getElementById("optPrepaidSub").textContent = "Pay ₹" + prepaid + " now · ₹0 on delivery · Priority Dispatch";
+      document.getElementById("optPrepaidAmt").textContent = "₹" + prepaid;
+      document.getElementById("payNowBadge").textContent = "₹" + payNow;
+      document.querySelectorAll(".payAppAmt").forEach(el => el.textContent = "Pay ₹" + payNow);
+      document.getElementById("confirmBtn").textContent = payMode === "advance"
+        ? "Confirm & Send on WhatsApp (₹" + ADVANCE_AMT + " Adv.) →"
+        : "Confirm & Send on WhatsApp · ₹" + prepaid + " →";
+    }
+
+    function openCheckout() {
+      syncCheckoutPrices();
+      backToStep1();
+      document.getElementById("step3Panel").classList.add("hidden");
+      document.getElementById("stepBar").classList.remove("hidden");
+      document.getElementById("orderModal").classList.remove("hidden");
+    }
+    function closeCheckout() { document.getElementById("orderModal").classList.add("hidden"); }
+
+    function backToStep1() {
+      document.getElementById("step2Form").classList.add("hidden");
+      document.getElementById("step1Form").classList.remove("hidden");
+      document.getElementById("modalHeading").textContent = "Step 1: Delivery Address";
+      document.getElementById("pillStep1").className = "py-1.5 px-3 rounded-lg font-semibold bg-[#5e3d8f] text-white";
+      document.getElementById("pillStep2").className = "py-1.5 px-3 rounded-lg font-semibold bg-white text-zinc-500 border border-[#e6e0ee]";
+    }
+
+    function goToStep2(e) {
+      e.preventDefault();
+      const name = document.getElementById("custName").value.trim();
+      const phone = document.getElementById("custPhone").value.trim();
+      const addr = document.getElementById("custAddress").value.trim();
+      const pin = document.getElementById("custPin").value.trim();
+      const city = document.getElementById("custCity").value.trim();
+      document.getElementById("savedAddrTitle").textContent = name + " · " + phone;
+      document.getElementById("savedAddrBody").textContent = addr + ", " + city + " - " + pin;
+      syncCheckoutPrices();
+      document.getElementById("step1Form").classList.add("hidden");
+      document.getElementById("step2Form").classList.remove("hidden");
+      document.getElementById("modalHeading").textContent = "Step 2: ₹149 Advance Payment";
+      document.getElementById("pillStep1").className = "py-1.5 px-3 rounded-lg font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200";
+      document.getElementById("pillStep2").className = "py-1.5 px-3 rounded-lg font-semibold bg-[#5e3d8f] text-white";
+    }
+
+    function setPayMode(mode) {
+      payMode = mode;
+      document.getElementById("optAdvance").className = mode === "advance"
+        ? "w-full p-3.5 rounded-xl border border-[#5e3d8f] bg-[#f3eef9] text-left flex items-center justify-between cursor-pointer"
+        : "w-full p-3.5 rounded-xl border border-[#e6e0ee] bg-white text-left flex items-center justify-between cursor-pointer";
+      document.getElementById("optPrepaid").className = mode === "prepaid"
+        ? "w-full p-3.5 rounded-xl border border-[#5e3d8f] bg-[#f3eef9] text-left flex items-center justify-between cursor-pointer"
+        : "w-full p-3.5 rounded-xl border border-[#e6e0ee] bg-white text-left flex items-center justify-between cursor-pointer";
+      syncCheckoutPrices();
+    }
+
+    function copyUpiId() {
+      if (navigator.clipboard) navigator.clipboard.writeText(SELLER_UPI_ID).catch(() => {});
+      const btn = document.getElementById("copyUpiBtn");
+      btn.textContent = "UPI ID Copied!";
+      setTimeout(() => btn.textContent = "Copy UPI ID", 2500);
+    }
+
+    function launchUpi(app) {
+      const total = BOX_PRICE * qty;
+      const payNow = payMode === "advance" ? ADVANCE_AMT : Math.max(0, total - PREPAID_EXTRA_OFF);
+      const params = "pa=" + encodeURIComponent(SELLER_UPI_ID) + "&pn=" + encodeURIComponent("Natori Oil") + "&am=" + payNow + "&cu=INR&tn=NatoriOilOrder";
+      let uri = "upi://pay?" + params;
+      if (app === "phonepe") uri = "phonepe://pay?" + params;
+      if (app === "gpay") uri = "tez://upi/pay?" + params;
+      if (app === "paytm") uri = "paytmmp://pay?" + params;
+      try { window.location.href = uri; } catch (_) { copyUpiId(); }
+    }
+
+    function confirmAndSendWhatsApp(e) {
+      e.preventDefault();
+      const orderId = "NO-" + Math.floor(1000 + Math.random() * 9000);
+      const name = document.getElementById("custName").value.trim();
+      const phone = document.getElementById("custPhone").value.trim();
+      const addr = document.getElementById("custAddress").value.trim();
+      const pin = document.getElementById("custPin").value.trim();
+      const city = document.getElementById("custCity").value.trim();
+      const utr = document.getElementById("custUtr").value.trim();
+
+      const total = BOX_PRICE * qty;
+      const codBal = Math.max(0, total - ADVANCE_AMT);
+      const prepaid = Math.max(0, total - PREPAID_EXTRA_OFF);
+      const payNow = payMode === "advance" ? ADVANCE_AMT : prepaid;
+
+      let msg = `*NEW DISCREET ORDER (NATORI OIL) — ${orderId}*\n\n`;
+      msg += `*Customer Details:*\nName: ${name}\nPhone: ${phone}\nAddress: ${addr}, ${city} - ${pin}\n\n`;
+      msg += `*Product:* APOEM Secret Firming & Tightening Oil (${qty} ${qty === 1 ? 'Box' : 'Boxes'} · ₹${total})\n`;
+      msg += `*Packaging:* 100% Plain Unlabelled Brown Box\n\n`;
+      if (payMode === "advance") {
+        msg += `*Payment Mode:* ₹${ADVANCE_AMT} Advance COD\n*Advance Paid (UPI):* ₹${ADVANCE_AMT}\n*Balance on Delivery (COD):* ₹${codBal}\n`;
+      } else {
+        msg += `*Payment Mode:* Full Prepaid UPI (Extra ₹${PREPAID_EXTRA_OFF} Off)\n*Total Paid (UPI):* ₹${prepaid}\n*Balance on Delivery:* ₹0\n`;
+      }
+      if (utr) msg += `*UPI UTR / Ref No.:* ${utr}\n`;
+      msg += `\nMaine ₹${payNow} UPI pay kar diye hain, screenshot yahan bhej raha/rahi hoon. Kripya order confirm karke tracking link send karein.`;
+
+      lastOrderMsg = msg;
+      const waUrl = `https://wa.me/${SELLER_WHATSAPP}?text=${encodeURIComponent(msg)}`;
+
+      document.getElementById("step2Form").classList.add("hidden");
+      document.getElementById("stepBar").classList.add("hidden");
+      document.getElementById("step3Panel").classList.remove("hidden");
+      document.getElementById("modalHeading").textContent = "Order #" + orderId + " Confirmed";
+      document.getElementById("confOrderId").textContent = "Order #" + orderId + " · Discreet Dispatch Ready";
+      document.getElementById("confName").textContent = "Thank you, " + name;
+      document.getElementById("waBackupLink").href = waUrl;
+
+      try {
+        const a = document.createElement("a");
+        a.href = waUrl;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      } catch (_) {}
+    }
+
+    function copyOrderMsg() {
+      if (navigator.clipboard && lastOrderMsg) navigator.clipboard.writeText(lastOrderMsg).catch(() => {});
+      const btn = document.getElementById("copyMsgBtn");
+      btn.textContent = "Message Copied!";
+      setTimeout(() => btn.textContent = "Copy Details", 2500);
+    }
+  </script>
+</body>
+</html>
